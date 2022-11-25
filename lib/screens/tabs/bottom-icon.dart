@@ -10,7 +10,7 @@ class BottomIconTabs extends StatefulWidget {
 
 class _BottomIconTabsState extends State<BottomIconTabs>
     with TickerProviderStateMixin {
-  TabController tabController;
+  late TabController tabController;
 
   @override
   void initState() {

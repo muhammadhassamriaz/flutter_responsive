@@ -9,7 +9,7 @@ class Tabs extends StatefulWidget {
 }
 
 class _TabsState extends State<Tabs> with TickerProviderStateMixin {
-  TabController tabController;
+  late TabController tabController;
 
   @override
   void initState() {

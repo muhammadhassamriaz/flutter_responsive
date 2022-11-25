@@ -10,7 +10,7 @@ class Alert extends StatefulWidget {
 
 class _AlertState extends State<Alert> {
   bool showblur = false;
-  Widget alertWidget;
+  Widget? alertWidget;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +22,7 @@ class _AlertState extends State<Alert> {
 //blurnessColor: Colors.black54,
 
 //
-            child: alertWidget,
+            child: alertWidget!,
             body: ListView(
               children: <Widget>[
                 Text(

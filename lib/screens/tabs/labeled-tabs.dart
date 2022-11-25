@@ -10,7 +10,7 @@ class LabeledTabs extends StatefulWidget {
 
 class _LabeledTabsState extends State<LabeledTabs>
     with TickerProviderStateMixin {
-  TabController tabController;
+  late TabController tabController;
 
   @override
   void initState() {

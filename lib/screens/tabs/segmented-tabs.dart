@@ -9,7 +9,7 @@ class SegmentTab extends StatefulWidget {
 }
 
 class _SegmentTabState extends State<SegmentTab> with TickerProviderStateMixin {
-  TabController tabController;
+  late TabController tabController;
 
   @override
   void initState() {
