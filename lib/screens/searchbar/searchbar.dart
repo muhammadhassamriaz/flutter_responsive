@@ -72,8 +72,10 @@ class _SearchBarState extends State<SearchBar> {
 //              hideSearchBoxWhenItemSelected: false,
 //              overlaySearchListHeight: 100.0,
                 searchQueryBuilder: (query, list) => list
-                    .where((item) =>
-                        item.toLowerCase().contains(query.toLowerCase()))
+                    .where((item) => item
+                        .toString()
+                        .toLowerCase()
+                        .contains(query.toLowerCase()))
                     .toList(),
                 overlaySearchListItemBuilder: (dynamic item) => Container(
                       padding: const EdgeInsets.all(8),
@@ -130,8 +132,10 @@ class _SearchBarState extends State<SearchBar> {
 //              hideSearchBoxWhenItemSelected: false,
 //              overlaySearchListHeight: 100.0,
                 searchQueryBuilder: (query, list) => list
-                    .where((item) =>
-                        item.toLowerCase().contains(query.toLowerCase()))
+                    .where((item) => item
+                        .toString()
+                        .toLowerCase()
+                        .contains(query.toLowerCase()))
                     .toList(),
                 overlaySearchListItemBuilder: (dynamic item) => Container(
                       padding: const EdgeInsets.all(8),
@@ -162,8 +166,10 @@ class _SearchBarState extends State<SearchBar> {
 //              hideSearchBoxWhenItemSelected: false,
 //              overlaySearchListHeight: 100.0,
                 searchQueryBuilder: (query, list) => list
-                    .where((item) =>
-                        item.toLowerCase().contains(query.toLowerCase()))
+                    .where((item) => item
+                        .toString()
+                        .toLowerCase()
+                        .contains(query.toLowerCase()))
                     .toList(),
                 overlaySearchListItemBuilder: (dynamic item) => Container(
                       padding: const EdgeInsets.all(8),

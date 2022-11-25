@@ -33,8 +33,8 @@ class _FabFloatingWidgetState extends State<FabFloatingWidget>
         parent: animationController, curve: Curves.fastLinearToSlowEaseIn));
   }
 
-  AnimationController controller, _controller;
-  Animation<Offset> offset, offset1;
+  late AnimationController controller, _controller;
+  late Animation<Offset> offset, offset1;
 
   bool showfabFloatingWidget = false;
 
